@@ -3,8 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const audioList = document.querySelector(".audio-list");
 
     // قايمة اللينكات من Google Drive (محولة للشكل المباشر)
-    const audioLinks = [
-        "https://drive.google.com/uc?export=download&id=1oem1NoKiwfsLzQXIOl57dNUN_GCDnsx2", // Pista1
+   const audioLinks = [
+    "https://drive.google.com/uc?id=1oem1NoKiwfsLzQXIOl57dNUN_GCDnsx2", // Pista1
+    // الباقي زي ما هو دلوقتي
+];
         "https://drive.google.com/uc?export=download&id=1w11zy_mfbbfGkAv1fx71W9LsM9NeaO3U", // Pista2
         "https://drive.google.com/uc?export=download&id=1xVPa0iHc_veBfF3daABHwCKAW1Jj3v1q", // Pista3
         "https://drive.google.com/uc?export=download&id=11tUKACUVYeOU7PfZfbVEnEX_eZWjCzur", // Pista4
